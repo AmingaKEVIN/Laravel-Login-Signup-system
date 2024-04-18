@@ -1,0 +1,175 @@
+*{
+    font-family:"Noto Sans Khojki", sans-serif ;
+}
+
+body{
+    background-color:#f6f6f6;
+}
+.nav {
+    margin-top:30px;
+}
+.nav a{
+    padding:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+}
+.nav a:hover{
+    background-color:#091997;
+    color:white;
+}
+.active{
+    margin-left:250px;
+}
+.content{
+    margin-top:60px;
+    display:flex;
+}
+.content2 h1{
+    color:#091997;
+    font-family: "Noto Sans Khojki", sans-serif;
+}
+.span1{
+    color:#091997;
+    text-transform: uppercase;
+}
+.content2 p{
+    font-family:"Noto Sans Khojki", sans-serif; ;
+}
+.content2 a{
+    text-decoration: none;
+    background-color:#091997;
+    color:white;
+    padding:30px;
+    margin-top:100px;
+}
+.content3{
+    margin-top:40px;
+}
+.products h1{
+    color:#091997;
+}
+.products{
+    display:flex;
+    margin-left:450px;
+}
+.products2{
+    height:50px;
+    width:10px;
+    background-color: #091997;
+    margin-top:30px;
+}
+.products1{
+    margin-left:20px;
+}
+.product4 img{
+   width:400px;
+   height:300px;
+    object-fit: contain;
+}
+.product4 i{
+    color:#091997;
+}
+.product4{
+    background-color:rgba(34, 229, 171, 0.388);
+    width:300px;
+    height:600px;
+    padding:30px;
+}
+.products3{
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.login1{
+    width:500px;
+    height:200px;
+    
+  
+    
+}
+.login{
+    display:flex;
+    margin-top:40px;
+}
+.sbmt{
+    margin-top:30px;
+}
+.restinfo{
+    display:flex;
+}
+.sbmt input{
+    background-color:#091997;
+    color:white;
+    padding:10px;
+}
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+  .signup1{
+    width:500px;
+  }
+  .signup{
+    display:flex;
+    margin-top:50px;
+    gap:40px;
+   
+  }
+  .login{
+    background-image: url(./assets/add\ friends.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .active1 {
+    color:#091997;
+  }
+  .active1:hover{
+    background-color: none;
+  }
